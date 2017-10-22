@@ -91,3 +91,36 @@
         </div>
     </body>
 </html>
+<?php
+
+    $arr_post_body = array(
+        "message_type" => "SEND",
+        "mobile_number" => "639168345949",
+        "shortcode" => "29290888000",
+        "message_id" => uniqid(),
+        "message" => urlencode("Hi Ace! Thank you for choosing Elizabeth Seton School. Your reference code is: AN6G2B "),
+        "client_id" => "2177e44257fcf8eb3e9435398485dddb34b3864181655755141a92f52994829c",
+        "secret_key" => "58443d551c788bbada11d6434c74710b4485c21f6eee5df68d04f7d11c604ede"  
+
+    );
+
+    $query_string = "";
+    foreach($arr_post_body as $key => $frow)
+    {
+        $query_string .= '&'.$key.'='.$frow;
+    }
+
+    $URL = "https://post.chikka.com/smsapi/request";
+
+    $curl_handler = curl_init();
+    curl_setopt($curl_handler, CURLOPT_URL, $URL);
+    curl_setopt($curl_handler, CURLOPT_POST, count($arr_post_body));
+    curl_setopt($curl_handler, CURLOPT_POSTFIELDS, $query_string);
+    curl_setopt($curl_handler, CURLOPT_RETURNTRANSFER, TRUE);
+    $response = curl_exec($curl_handler);
+    curl_close($curl_handler);
+
+    exit(0);
+
+        
+?>

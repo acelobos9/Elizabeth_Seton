@@ -208,19 +208,19 @@
 					<h4 class="push">&nbsp;&nbsp;&nbsp;Father's Data</h4>
 					<div class="col-md-4">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_lastname[]">
+							<input class="form-control" type="text" id="material-color-success2" name="f_lastname">
 							<label for="material-color-success2">Surname</label>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_firstname[]">
+							<input class="form-control" type="text" id="material-color-success2" name="f_firstname">
 							<label for="material-color-success2">First Name</label>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_middlename[]">
+							<input class="form-control" type="text" id="material-color-success2" name="f_middlename">
 							<label for="material-color-success2">Middle Name</label>
 						</div>
 					</div>
@@ -228,7 +228,7 @@
 				<div class="form-group">
 					<div class="col-md-6">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_occupation[]">
+							<input class="form-control" type="text" id="material-color-success2"	 name="f_occupation">
 							<label for="material-color-success2">Occupation</label>
 						</div>
 					</div>
@@ -238,19 +238,19 @@
 					<h4 class="push">&nbsp;&nbsp;&nbsp;Mother's Data</h4>
 					<div class="col-md-4">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_lastname[]">
+							<input class="form-control" type="text" id="material-color-success2" name="m_lastname">
 							<label for="material-color-success2">Maiden Last Name</label>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_firstname[]">
+							<input class="form-control" type="text" id="material-color-success2" name="m_firstname">
 							<label for="material-color-success2">First Name</label>
 						</div>
 					</div>
 					<div class="col-md-4">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_middlename[]">
+							<input class="form-control" type="text" id="material-color-success2" name="m_middlename">
 							<label for="material-color-success2">Middle Name</label>
 						</div>
 					</div>
@@ -258,7 +258,7 @@
 				<div class="form-group">
 					<div class="col-md-6">
 						<div class="form-material form-material-success fqwert">
-							<input class="form-control" type="text" id="material-color-success2" name="p_occupation[]">
+							<input class="form-control" type="text" id="material-color-success2" name="m_occupation">
 							<label for="material-color-success2">Occupation</label>
 						</div>
 					</div>
